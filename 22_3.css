@@ -1,0 +1,32 @@
+.line{
+	height: 2px;
+	background-color: black;
+	width: 100%;
+	margin-bottom: 10vh;
+	margin-top: 10vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative
+}
+.image{
+  visibility:visible !important;
+}
+.image:hover{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.box{
+	visibility: hidden;
+	text-align: center;
+	margin-top: 35px; 
+}
+.box:hover{
+	visibility:visible;
+}
+.header{
+	text-align: center;
+	padding: 20px;
+	font-size: 200%;
+}
